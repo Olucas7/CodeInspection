@@ -2,12 +2,60 @@ package labcodeinspection;
 
 public class Email {
 
-	private String m_firstName; //NOPMD This field will be manipulated later.
+	private String m_firstName;
 	private String m_lastName;
 	private String password = null;
 	private String department;
 	private int defaultpasswordLength = 8;
 	private String email;
+	
+	public String getM_firstName() {
+		return m_firstName;
+	}
+
+	public void setM_firstName(String m_firstName) {
+		this.m_firstName = m_firstName;
+	}
+
+	public String getM_lastName() {
+		return m_lastName;
+	}
+
+	public void setM_lastName(String m_lastName) {
+		this.m_lastName = m_lastName;
+	}
+
+	public String getPassword() {
+		return password;
+	}
+
+	public void setPassword(String password) {
+		this.password = password;
+	}
+
+	public String getDepartment() {
+		return department;
+	}
+
+	public void setDepartment(String department) {
+		this.department = department;
+	}
+
+	public int getDefaultpasswordLength() {
+		return defaultpasswordLength;
+	}
+
+	public void setDefaultpasswordLength(int defaultpasswordLength) {
+		this.defaultpasswordLength = defaultpasswordLength;
+	}
+
+	public String getEmail() {
+		return email;
+	}
+
+	public void setEmail(String email) {
+		this.email = email;
+	}
 
 	public Email(String firstName, String lastName) {
 		this.m_firstName = firstName;
@@ -48,4 +96,6 @@ public class Email {
 		this.email = this.m_firstName.toLowerCase() + this.m_lastName.toLowerCase() + "@" + this.department
 				+ ".espol.edu.ec";
 	}
+	
+	
 }

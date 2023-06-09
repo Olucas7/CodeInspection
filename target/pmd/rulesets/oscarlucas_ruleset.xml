@@ -18,5 +18,4 @@
 	<rule ref="category/java/design.xml/UseUtilityClass">
 		<priority>1</priority>
 	</rule>
-
 </ruleset>

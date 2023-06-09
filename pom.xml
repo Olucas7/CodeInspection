@@ -39,6 +39,9 @@
 						<ruleset>
 							oscarlucas_ruleset.xml
 						</ruleset>
+						<ruleset>
+							newrules.xml
+						</ruleset>
 					</rulesets>
 				</configuration>
 			</plugin>
